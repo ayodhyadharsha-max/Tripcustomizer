@@ -16,15 +16,15 @@ const REDIRECT    = "/thank-you";
 
 const CITIES = [
   { id: "agra", name: "Agra", attractions: "Taj Mahal, Agra Fort, Fatehpur Sikri", order: 1, img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80" },
-  { id: "mathura", name: "Mathura", attractions: "Krishna Janmabhoomi, Dwarkadhish Mandir", order: 2, img: "https://images.unsplash.com/photo-1529733772151-bab41484710a?auto=format&fit=crop&w=600&q=80" },
-  { id: "vrindavan", name: "Vrindavan", attractions: "Banke Bihari Mandir, Prem Mandir", order: 3, img: "https://images.unsplash.com/photo-1602643454724-21d5a40722db?auto=format&fit=crop&w=600&q=80" },
+  { id: "mathura", name: "Mathura", attractions: "Krishna Janmabhoomi, Dwarkadhish Mandir", order: 2, img: "/gallery/mathura-holi.jpg" },
+  { id: "vrindavan", name: "Vrindavan", attractions: "Banke Bihari Mandir, Prem Mandir", order: 3, img: "/gallery/vrindavan-premmandir.png" },
   { id: "lucknow", name: "Lucknow", attractions: "Bara Imambara, British Residency", order: 4, img: "https://images.unsplash.com/photo-1530785602389-07594beb8b73?auto=format&fit=crop&w=600&q=80" },
   { id: "namishrayan", name: "Naimisharanya", attractions: "Chakra Tirth, Lalita Devi Temple", order: 5, img: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" },
   { id: "ayodhya", name: "Ayodhya", attractions: "Ram Mandir, Hanuman Garhi, Saryu Ghat", order: 6, img: "/gallery/gallery-5.jpg" },
   { id: "chappiya", name: "Chhapaiya", attractions: "Swaminarayan Birthplace Temple", order: 7, img: "https://images.unsplash.com/photo-1590142588602-73354f46d6a0?auto=format&fit=crop&w=600&q=80" },
   { id: "prayagraj", name: "Prayagraj", attractions: "Triveni Sangam, Anand Bhawan", order: 8, img: "/gallery/gallery-27.jpg" },
-  { id: "varanasi", name: "Varanasi", attractions: "Kashi Vishwanath, Ganga Aarti", order: 9, img: "/gallery/gallery-24.jpg" },
-  { id: "vindhyachal", name: "Vindhyachal", attractions: "Vindhyavasini Devi Mandir", order: 10, img: "https://images.unsplash.com/photo-1653392083932-d5e9e7d2ccd1?auto=format&fit=crop&w=600&q=80" },
+  { id: "varanasi", name: "Varanasi", attractions: "Kashi Vishwanath, Ganga Aarti", order: 9, img: "/gallery/varanasi-sunset.jpg" },
+  { id: "vindhyachal", name: "Vindhyachal", attractions: "Vindhyavasini Devi Mandir", order: 10, img: "/gallery/vindhyachal-devi.jpg" },
   { id: "chitrakoot", name: "Chitrakoot", attractions: "Ramghat, Kamadgiri Parikrama", order: 11, img: "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&w=600&q=80" },
   { id: "bodhgaya", name: "Bodhgaya", attractions: "Mahabodhi Temple, Buddha Statue", order: 12, img: "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&w=600&q=80" },
 ];
