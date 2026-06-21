@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "UP Tour Customizer | Custom Uttar Pradesh Pilgrimage & Heritage Tour Planner",
+  title: "Trip Customizer | Custom Uttar Pradesh Pilgrimage & Heritage Tour Planner",
   description:
     "Design your custom Uttar Pradesh (UP) tour package using our interactive trip planner. Cover Ayodhya, Varanasi, Prayagraj, Agra, Vrindavan, Mathura, Lucknow, Chitrakoot, Bodhgaya, and more. Choose your own hotels, AC transport, and routes. Perfect for families, devotees, and senior citizens.",
   keywords: [
@@ -36,24 +36,24 @@ export const metadata: Metadata = {
     "family tour package UP",
     "elderly friendly UP tour",
   ].join(", "),
-  applicationName: "UP Tours Customizer",
-  authors: [{ name: "UP Tours Customizer" }],
-  creator: "UP Tours Customizer",
-  publisher: "UP Tours Customizer",
+  applicationName: "Trip Customizer",
+  authors: [{ name: "Trip Customizer" }],
+  creator: "Trip Customizer",
+  publisher: "Trip Customizer",
   category: "Travel & Tourism",
   classification: "Custom Pilgrimage & Heritage Tours",
   formatDetection: { telephone: true, email: true, address: true },
   openGraph: {
-    title: "UP Tour Customizer — Create Your Custom Uttar Pradesh Itinerary",
+    title: "Trip Customizer — Create Your Custom Uttar Pradesh Itinerary",
     description:
       "Select your cities (Varanasi, Ayodhya, Prayagraj, Mathura, Vrindavan, Agra, and more), choose hotel categories, pick your vehicle, and get a tailored quote instantly.",
     type: "website",
     locale: "en_IN",
-    siteName: "UP Tours Customizer",
+    siteName: "Trip Customizer",
   },
   twitter: {
     card: "summary_large_image",
-    title: "UP Tour Customizer — Custom Uttar Pradesh Tour Packages",
+    title: "Trip Customizer — Custom Uttar Pradesh Tour Packages",
     description:
       "Design your spiritual and heritage tour across Varanasi, Ayodhya, Prayagraj, Mathura, Vrindavan, Agra, and more. Instant quotes and custom vehicle choices.",
   },

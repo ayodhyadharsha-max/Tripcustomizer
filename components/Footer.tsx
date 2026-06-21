@@ -173,23 +173,18 @@ export default function Footer() {
 
           {/* Brand column — 4 cols */}
           <div className="lg:col-span-4">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="relative flex-shrink-0 w-[72px] h-[72px]">
+            <div className="flex flex-col gap-3 mb-6">
+              <div className="relative flex-shrink-0 w-[140px] h-[82px]">
                 <Image
                   src="/logo.png"
-                  alt="Ayodhya Dharshan"
+                  alt="Trip Customizer Logo"
                   fill
-                  sizes="72px"
+                  sizes="140px"
                   className="object-contain"
                 />
               </div>
-              <div>
-                <div className="font-playfair font-bold text-white text-xl leading-tight tracking-wide">
-                  UP Tours Customizer
-                </div>
-                <div className="text-saffron-500 text-[10px] tracking-[0.24em] uppercase mt-0.5">
-                  Custom Tour Planner
-                </div>
+              <div className="text-saffron-500 text-[10px] tracking-[0.24em] uppercase font-semibold">
+                Custom Tour Planner
               </div>
             </div>
 
@@ -345,7 +340,7 @@ export default function Footer() {
       <div className="py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <p className="text-white/25 text-xs">
-            © 2026 UP Tours Customizer. All rights reserved. |{" "}
+            © 2026 Trip Customizer. All rights reserved. |{" "}
             <span className="text-saffron-600/50">Jai Shri Ram 🙏</span>
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-white/25 text-xs">

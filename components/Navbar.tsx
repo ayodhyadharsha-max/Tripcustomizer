@@ -45,23 +45,21 @@ export default function Navbar() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
 
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="UP Tours Customizer">
-            <div className="relative flex-shrink-0 w-[44px] h-[44px] md:w-[56px] md:h-[56px]">
-              <Image
-                src="/logo.png"
-                alt="UP Tours Customizer"
-                fill
-                sizes="(max-width: 768px) 44px, 56px"
-                className="object-contain drop-shadow-sm"
-                priority
-              />
-            </div>
-            <div className={`transition-colors duration-300 ${scrolled || menuOpen ? "text-divine-dark" : "text-white"}`}>
-              <div className="font-playfair font-bold text-[15px] leading-tight tracking-wide">
-                UP Tours Customizer
-              </div>
-              <div className={`text-[9px] tracking-[0.24em] uppercase font-semibold ${scrolled || menuOpen ? "text-saffron-600" : "text-gold-300"}`}>
-                Custom Tour Planner
+          <a href="#" className="flex items-center group flex-shrink-0" aria-label="Trip Customizer">
+            <div className={`relative transition-all duration-300 ease-in-out ${
+              scrolled || menuOpen
+                ? "bg-[#1A0800] border border-gold-500/30 rounded-xl px-2.5 py-1 shadow-md scale-95"
+                : "bg-[#1A0800]/40 backdrop-blur-md border border-white/10 rounded-xl px-2.5 py-1"
+            }`}>
+              <div className="relative w-[70px] h-[41px] md:w-[80px] md:h-[47px]">
+                <Image
+                  src="/logo.png"
+                  alt="Trip Customizer"
+                  fill
+                  sizes="(max-width: 768px) 70px, 80px"
+                  className="object-contain"
+                  priority
+                />
               </div>
             </div>
           </a>

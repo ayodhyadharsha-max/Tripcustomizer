@@ -27,13 +27,13 @@ import { faqData } from "@/lib/faqData";
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": ["TourOperator", "LocalBusiness"],
-  name: "UP Tours Customizer",
-  alternateName: ["UP Custom Tours", "Uttar Pradesh Tour Planner"],
+  name: "Trip Customizer",
+  alternateName: ["Trip Customizer", "UP Tours Customizer", "Uttar Pradesh Tour Planner"],
   url: "https://tripcustomizer.vercel.app", // Keeping original domain configuration
   logo: "https://tripcustomizer.vercel.app/logo.png",
   image: "https://tripcustomizer.vercel.app/logo.png",
   description:
-    "UP Tours Customizer specializes in tailor-made travel packages across Uttar Pradesh. We design custom itineraries covering Agra, Mathura, Vrindavan, Lucknow, Naimisharanya, Ayodhya, Chhapaiya, Prayagraj, Varanasi, Vindhyachal, Bodhgaya, and Chitrakoot, including premium hotel stays, private AC vehicles, and licensed local guides.",
+    "Trip Customizer specializes in tailor-made travel packages across Uttar Pradesh. We design custom itineraries covering Agra, Mathura, Vrindavan, Lucknow, Naimisharanya, Ayodhya, Chhapaiya, Prayagraj, Varanasi, Vindhyachal, Bodhgaya, and Chitrakoot, including premium hotel stays, private AC vehicles, and licensed local guides.",
   telephone: "+919235222399",
   email: "tripcustomizer@gmail.com",
   address: {
@@ -246,7 +246,7 @@ const tourSchema = {
         sku: "braj-taj-custom",
         brand: {
           "@type": "Brand",
-          name: "UP Tours"
+          name: "Trip Customizer"
         },
         offers: {
           "@type": "Offer",
@@ -272,7 +272,7 @@ const tourSchema = {
         sku: "purvanchal-custom",
         brand: {
           "@type": "Brand",
-          name: "UP Tours"
+          name: "Trip Customizer"
         },
         offers: {
           "@type": "Offer",
@@ -300,7 +300,7 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "UP Tour Customizer",
+      name: "Trip Customizer",
       item: "https://tripcustomizer.vercel.app/#get-quote",
     },
   ],
