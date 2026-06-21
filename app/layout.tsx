@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://ayodhyadharshan.com",
+    canonical: "https://tripcustomizer.vercel.app",
   },
   icons: {
     icon: [

@@ -29,13 +29,13 @@ const organizationSchema = {
   "@type": ["TourOperator", "LocalBusiness"],
   name: "UP Tours Customizer",
   alternateName: ["UP Custom Tours", "Uttar Pradesh Tour Planner"],
-  url: "https://ayodhyadharshan.com", // Keeping original domain configuration
-  logo: "https://ayodhyadharshan.com/logo.png",
-  image: "https://ayodhyadharshan.com/logo.png",
+  url: "https://tripcustomizer.vercel.app", // Keeping original domain configuration
+  logo: "https://tripcustomizer.vercel.app/logo.png",
+  image: "https://tripcustomizer.vercel.app/logo.png",
   description:
     "UP Tours Customizer specializes in tailor-made travel packages across Uttar Pradesh. We design custom itineraries covering Agra, Mathura, Vrindavan, Lucknow, Naimisharanya, Ayodhya, Chhapaiya, Prayagraj, Varanasi, Vindhyachal, Bodhgaya, and Chitrakoot, including premium hotel stays, private AC vehicles, and licensed local guides.",
   telephone: "+919235222399",
-  email: "contact@ayodhyadharshan.com",
+  email: "tripcustomizer@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Second Floor, Plot No 12, Transport Nagar",
@@ -146,7 +146,7 @@ const destinationSchema = {
   name: "Uttar Pradesh Custom Tours",
   description:
     "Uttar Pradesh holds deep religious, historical, and cultural value. It features major landmarks like Taj Mahal, Ram Mandir in Ayodhya, Dashashwamedh Ghat & Kashi Vishwanath in Varanasi, and Triveni Sangam in Prayagraj.",
-  url: "https://ayodhyadharshan.com",
+  url: "https://tripcustomizer.vercel.app",
   geo: {
     "@type": "GeoCoordinates",
     latitude: "26.8467",
@@ -253,7 +253,7 @@ const tourSchema = {
           price: "24000",
           priceCurrency: "INR",
           priceValidUntil: "2027-12-31",
-          url: "https://ayodhyadharshan.com/#get-quote",
+          url: "https://tripcustomizer.vercel.app/#get-quote",
           availability: "https://schema.org/InStock",
         },
       },
@@ -279,7 +279,7 @@ const tourSchema = {
           price: "48000",
           priceCurrency: "INR",
           priceValidUntil: "2027-12-31",
-          url: "https://ayodhyadharshan.com/#get-quote",
+          url: "https://tripcustomizer.vercel.app/#get-quote",
           availability: "https://schema.org/InStock",
         },
       },
@@ -295,13 +295,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://ayodhyadharshan.com",
+      item: "https://tripcustomizer.vercel.app",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "UP Tour Customizer",
-      item: "https://ayodhyadharshan.com/#get-quote",
+      item: "https://tripcustomizer.vercel.app/#get-quote",
     },
   ],
 };

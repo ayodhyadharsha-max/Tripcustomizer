@@ -9,7 +9,7 @@ const WA_NUMBER    = "919235222399";
 const WA_MESSAGE   = encodeURIComponent(
   "Namaste 🙏 I want to plan a custom Uttar Pradesh tour. Please share details."
 );
-const EMAIL        = "contact@ayodhyadharshan.com";
+const EMAIL        = "tripcustomizer@gmail.com";
 const PHONE_DISPLAY = "+91 9235222399";
 
 const socialLinks = [
