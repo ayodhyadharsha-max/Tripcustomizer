@@ -21,6 +21,8 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +30,9 @@ body {
   color: #1a0800;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 /* Premium thin scrollbar */

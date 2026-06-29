@@ -325,7 +325,7 @@ export default function Home() {
       <AnnouncementBar />
       <Navbar />
 
-      <main>
+      <main className="overflow-hidden max-w-full">
         {/* 1. Hero — above-the-fold conversion section */}
         <Hero />
 
